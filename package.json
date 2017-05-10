@@ -1,0 +1,17 @@
+{
+  "name": "avo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "avo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Junaid Gool",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.3.0"
+  }
+}
