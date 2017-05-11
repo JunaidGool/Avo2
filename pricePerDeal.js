@@ -1,13 +1,14 @@
 module.exports = function pricePerDeal (allDeals){
 
+  for (i=0; i<allDeals.length;i++){
+    var quantity = allDeals[i].quantity;
+    var price = allDeals[i].price;
 
-  var price = allDeals[1];
-  var quantity = allDeals[0];
+    var pricePerDeal = price / quantity;
 
-  var pricePerDeal = price / quantity;
+    console.log(pricePerDeal);
 
-  console.log(pricePerDeal)
+    return pricePerDeal;
 
-  return pricePerDeal
-
+  }
 };
